@@ -138,7 +138,7 @@ minetest.register_node("locks:door", {
     description = "Shared locked Wooden Door",
     node_placement_prediction = "",
     inventory_image = 'locks_xdoors2_door.png',
-    wield_image = 'xdoors2_door.png',
+    wield_image = 'locks_xdoors2_door.png',
     stack_max = 1,
     sunlight_propogates = true,
     on_place = function(itemstack, placer, pointed_thing)
